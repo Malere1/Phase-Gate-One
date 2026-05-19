@@ -1,5 +1,5 @@
 function startGame() {
-let randomNumber = Math.floor(Math.random^[[B() * 100) + 1;
+let randomNumber = Math.floor(Math.random  () * 100) + 1;
 let attempts = 0;
 while (attempts < 5) {
 let guess = parseInt(prompt("Guess a number between 1 and 100:"));
