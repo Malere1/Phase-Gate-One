@@ -1,7 +1,6 @@
-import java.util.ArrayList;
 import java.util.List;
 
-public class Array{public static List<Integer> getPrimeNumbers(int[] array) {List<Integer> primeNumbers = new ArrayList<>();
+public class getPrimeNumbers(int[] array) {
 
         for (int number : array) {
             if (isPrime(number)) {
@@ -23,8 +22,7 @@ public class Array{public static List<Integer> getPrimeNumbers(int[] array) {Lis
         }
         return true;
     }
-
-    private static List<Integer> sorted(List<Integer> list) {
+ {
         java.util.Collections.sort(list);
         return list;
     }
